@@ -8,3 +8,57 @@ body{
     background-color: #f4f4f4;
     text-align: center;
 }
+
+
+.heading{
+    width: 100%;
+    height: 15vmin;
+    background-color: #414833;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.gameContainer{
+    text-align: center;
+    width: 100%;
+    height: 35vmin;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.rockContainer{
+    width: 150px;
+    height: 150px;
+    background-image: url("rock.png");
+    background-size: cover;
+    border-radius: 50%;
+    border: none;
+}   
+
+
+.paperContainer{
+    width: 150px;
+    height: 150px;
+    background-image: url("paper.png");
+    background-size: cover;
+    border-radius: 50%;
+    border: none;
+}
+
+
+.scissorsContainer{
+    width: 150px;
+    height: 150px;
+    background-image: url("scissors.png");
+    background-size: cover;
+    border-radius: 50%;
+    border: none;
+}
+
+
