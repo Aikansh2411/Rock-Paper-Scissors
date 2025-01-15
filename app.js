@@ -6,6 +6,7 @@ let compCount = 0;
 let playerCount = 0;
 let compScore = document.querySelector('#computerCount');
 let playerScore = document.querySelector('#playerCount');
+let reset = document.querySelector('#reset');
 
 
 const randomChoice = () => {
@@ -72,4 +73,13 @@ scissors.addEventListener("click", () => {
     message.innerText = outcome;
     compScore.innerText = compCount;
     playerScore.innerText = playerCount;
+});
+
+reset.addEventListener("click", () => {
+    compCount = 0;
+    playerCount = 0;
+    compScore.innerText = compCount;
+    playerScore.innerText = playerCount;
+    message.innerText = "Make your move";
+    message.style.backgroundColor = "white";
 });
